@@ -1,0 +1,66 @@
+﻿<UserControl x:Class="DXTabControlTheming.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+    <Grid x:Name="LayoutRoot" Background="White">
+        <dx:DXTabControl x:Name="tabControl" Margin="11" TabNavigation="Local">
+            <dx:DXTabControl.View>
+                <dx:TabControlScrollView HeaderLocation="Right" HeaderOrientation="Default" />
+            </dx:DXTabControl.View>
+            <dx:DXTabControl.Items>
+                <dx:DXTabItem Header="Mercedes-Benz SL500 Roadster">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/0.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+                <dx:DXTabItem Header="Mercedes-Benz CLK55 AMG Cabriolet">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/1.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+                <dx:DXTabItem Header="BMW 530i">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/2.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+                <dx:DXTabItem Header="Rolls-Royce Corniche">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/3.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+                <dx:DXTabItem Header="Jaguar S-Type 3.0">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/4.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+                <dx:DXTabItem Header="Lexus LS430">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/5.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+                <dx:DXTabItem Header="Lexus GS430">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/6.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+                <dx:DXTabItem Header="Ford Ranger FX-4">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/7.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+                <dx:DXTabItem Header="Dodge Ram 1500">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/8.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+                <dx:DXTabItem Header="GMC Siera Quadrasteer">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/9.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+                <dx:DXTabItem Header="Nissan Crew Cab SE">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/10.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+                <dx:DXTabItem Header="Lexus GS430">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/6.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+                <dx:DXTabItem Header="Ford Ranger FX-4">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/7.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+                <dx:DXTabItem Header="Dodge Ram 1500">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/8.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+                <dx:DXTabItem Header="GMC Siera Quadrasteer">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/9.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+                <dx:DXTabItem Header="Nissan Crew Cab SE">
+                    <Image Source="/DXTabControlTheming;component/Images/Photos/Cars/10.jpg" Stretch="Uniform" MaxHeight="467" MaxWidth="700" />
+                </dx:DXTabItem>
+            </dx:DXTabControl.Items>
+        </dx:DXTabControl>
+    </Grid>
+</UserControl>
